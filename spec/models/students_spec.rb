@@ -9,4 +9,9 @@ describe Student do
       end
     end
   end
+
+  it 'has many addresses' do
+    student = Student.new(name: 'sam')
+    expect(student).to respond_to(:addresses)
+  end
 end

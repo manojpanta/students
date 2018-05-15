@@ -8,23 +8,23 @@ describe 'as a user' do
     city1 = 'denver'
     state1 = 'co'
     zip1 = 13243
-    address1 = Address.create!(student: student,
-                           description: description1,
-                           street: street1,
-                           city: city1,
-                           state: state1,
-                           zip: zip1)
+    Address.create!(student: student,
+                    description: description1,
+                    street: street1,
+                    city: city1,
+                    state: state1,
+                    zip: zip1)
     description2 = 'winter'
     street2 = 'thornton'
     city2 = 'thornton'
     state2 = 'co'
     zip2 = 23243
-    address2 = Address.create!(student: student,
-                           description: description2,
-                           street: street2,
-                           city: city2,
-                           state: state2,
-                           zip: zip2)
+    Address.create!(student: student,
+                    description: description2,
+                    street: street2,
+                    city: city2,
+                    state: state2,
+                    zip: zip2)
 
     visit student_path(student)
 

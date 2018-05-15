@@ -4,8 +4,8 @@ describe Student do
   describe 'validations' do
     context 'invalid attributes' do
       it 'is invalid without a name' do
-        category = Student.new
-        expect(category).to be_invalid
+        student = Student.new
+        expect(student).to be_invalid
       end
     end
   end

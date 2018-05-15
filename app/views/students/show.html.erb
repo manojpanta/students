@@ -1,1 +1,8 @@
 <h3> <%=@student.name%> <h3>
+  <%@addresses.each do |a| %>
+    <h4> <%=a.description%> </h4>
+    <h4> <%=a.city%> </h4>
+    <h4> <%=a.street%> </h4>
+    <h4> <%=a.state%> </h4>
+    <h4> <%=a.zip%> </h4>
+  <%end%>

@@ -5,7 +5,7 @@ describe 'as a user' do
     student = Student.create(name: 'Dione')
 
     description = 'summer'
-    street = '123'
+    street = 'denver'
     city = 'denver'
     state = 'co'
     zip = 2345
